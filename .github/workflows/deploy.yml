@@ -34,7 +34,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./mp2
-        run: npm ci
+        run: npm install
 
       - name: Build site
         working-directory: ./mp2
