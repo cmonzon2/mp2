@@ -33,6 +33,7 @@ jobs:
           cache-dependency-path: mp2/package-lock.json
 
       - name: Install dependencies
+        working-directory: ./mp2
         run: npm ci
 
       - name: Build site
