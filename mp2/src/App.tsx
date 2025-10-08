@@ -73,7 +73,7 @@ function App() {
   return (
     <div className="body">
       <div className="webTitle">
-        <h1>Art Institute of Chicago — Artworks</h1>
+        <h1>Art Institute of Chicago - Artworks</h1>
       </div>
       <br></br>
       <div className="options">
@@ -177,7 +177,7 @@ function App() {
             <div className="artTitle">
               <h3>{art.title}</h3>
               <p>
-                {art.artist_title || 'Unknown Artist'} — {art.date_display || art.date_start}
+                {art.artist_title || 'Unknown Artist'} - {art.date_display || art.date_start}
               </p>
             </div>
           </div>
@@ -208,7 +208,7 @@ function App() {
               <div className="artTitle">
                 <h3>{art.title}</h3>
                 <p>
-                  {art.artist_title || 'Unknown Artist'} — {art.date_display || ''}
+                  {art.artist_title || 'Unknown Artist'} - {art.date_display || ''}
                 </p>
               </div>
             </div>
